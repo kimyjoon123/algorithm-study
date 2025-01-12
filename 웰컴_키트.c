@@ -2,7 +2,7 @@
 
 int main(void){
     int N, T, P, Tsize[6];
-    int Tret=0, Pret=0;
+    int Tret=0;
 
     scanf("%d", &N);
     scanf("%d %d %d %d %d %d", &Tsize[0], &Tsize[1], &Tsize[2], &Tsize[3], &Tsize[4], &Tsize[5]);
