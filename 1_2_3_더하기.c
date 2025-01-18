@@ -8,7 +8,7 @@ int ways(int n){
         for(int i=1; i<n; i++) ret += ways(n-i);
     }
     else{
-        for(int i=1; i<4; i++) ret += ways(n-i);
+        ret += ways(n-3) + ways(n-2) + ways(n-1);
     }
 
     return ret;
